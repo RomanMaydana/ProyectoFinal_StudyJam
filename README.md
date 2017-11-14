@@ -3,7 +3,7 @@
 <div align="center">
   <center>
 	
-        <img src="/app/src/main/res/drawable/study_jam.png" width="400">
+        <img src="/app/src/main/res/drawable/study_jam.png" width="300">
  </center>
 </div>
 
@@ -48,9 +48,8 @@ Aca te muestro cual es el funcionamiento de mi aplicación a grandes rasgos.
 <div align="center">
   <center>
 	
-        <img src="/app/src/main/res/drawable/gif1.png" width="300">
-	
-        <img src="/app/src/main/res/drawable/gif1.png" width="300">
+        <img src="/app/src/main/res/drawable/gif1.gif" width="300">
+        <img src="/app/src/main/res/drawable/gif1.gif" width="300">
  </center>
 </div>
 

@@ -1,5 +1,5 @@
 # Proyecto Final - Study Jam II 2017
-===
+
 <div align="center">
   <center>
         <img src="/app/src/main/res/drawable/study_jam.png" width="300">
@@ -47,7 +47,7 @@ Aca te muestro cual es el funcionamiento de mi aplicación a grandes rasgos.
 <div align="center">
   <center>
         <img src="/app/src/main/res/drawable/gif1.gif" width="300">
-        <img src="/app/src/main/res/drawable/gif1.gif" width="300">
+        <img src="/app/src/main/res/drawable/gif2.gif" width="300">
  </center>
 </div>
 

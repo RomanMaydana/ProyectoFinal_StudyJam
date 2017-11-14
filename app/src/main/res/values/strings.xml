@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">Mi Episodio</string>
+    <string name="eliminar">ELIMINAR</string>
+    <string name="titulo">Título</string>
+    <string name="action_done">action_done</string>
+
+    <!--option array-->
+    <string name="otros">Otros</string>
+    <string name="viaje">Viaje</string>
+    <string name="cumpleanos">Cumpleaños</string>
+    <string name="trabajo">Trabajo</string>
+    <string name="fiesta">Fiesta</string>
+    <string name="seleccione_fecha">Seleccione Fecha</string>
+    <string name="fecha_del_episodio">Fecha del Episodio</string>
+    <string name="lugar_del_episodio">Lugar del Episodio</string>
+    <string name="categoria_del_episodio">Categoria del Episodio</string>
+    <string name="descripcion_del_episodio">Descripcion del Episodio</string>
+    <string name="episodio">episodio</string>
+    <string name="ajustes">Ajustes</string>
+    <string name="si_eliminar">Si, Eliminar</string>
+    <string name="actualizar">ACTUALIZAR</string>
+    <string name="actualizado_exitosamente">¡ACTUALIZADO EXITOSAMENTE!</string>
+
+    <!--color preferencias-->
+
+    <string name="pref_etiqueta_color">Color Fondo</string>
+    <string name="pref_etiqueta_color_rojo">Purpura</string>
+    <string name="pref_etiqueta_color_celeste">Celeste</string>
+    <string name="pref_etiqueta_color_verde">Verde</string>
+
+    <string name="pref_color_key" translatable="false">Color</string>
+    <string name="pref_color_rojo_valor" translatable="false">purpura</string>
+    <string name="pref_color_celeste_valor" translatable="false">celeste</string>
+    <string name="pref_color_verde_valor" translatable="false">verde</string>
+    <string name="acerca_de">Acerca de...</string>
+    <string name="la_paz_bolivia">LA PAZ - BOLIVIA</string>
+    <string name="contact_ro_28745_maydana_gmail_com">ContactO: ro.28745.maydana@gmail.com</string>
+    <string name="desarrollado_por_roman_maydana_callisaya">Desarrollado por: Roman Maydana Callisaya</string>
+    <string name="enFecha">enFecha: mm/dd/yyyy</string>
+    <string name="no_tiene_permiso">no tiene permiso para acceder a la ubicación del archivo</string>
+    <string name="agragado_exitosamente">AGREGADO EXITOSAMENTE</string>
+    <string name="complete_todos_los_campos">COMPLETE TODOS LOS CAMPOS</string>
+    <string name="nombre_baseDatos">MiEpisodio.sqlite</string>
+    <string name="crear_tabla">CREATE TABLE IF NOT EXISTS DB_MI_EPISODIO (id INTEGER PRIMARY KEY AUTOINCREMENT, titulo TEXT, lugar TEXT, fecha TEXT, categoria TEXT, descripcion TEXT, rutaImagen TEXT)</string>
+    <string name="selec_base_datos">SELECT * FROM DB_MI_EPISODIO</string>
+    <string name="image">image/*</string>
+    <string name="eliminado">¡Elimidado</string>
+    <string name="no_se_ha_podido_guardar">¡No se ha podido guardar la imagen!</string>
+    <string name="descripcion">Descripcion</string>
+    <string name="lugar">Lugar</string>
+    <string name="tituloAdd">Titulo</string>
+    <string name="eliminar_item">¿Eliminar item?</string>
+
+
+</resources>

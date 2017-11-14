@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.maydana.roman.miepisodio.SplashScreem"
+    android:background="@color/backgroundBlue"
+    android:gravity="center"
+    >
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:id="@+id/logoImagenView"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logo_app"
+        />
+
+    <ImageView
+        android:id="@+id/tituloImagenView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/titulo" />
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Select_array">
+        <item>@string/otros</item>
+        <item>@string/viaje</item>
+        <item>@string/trabajo</item>
+        <item>@string/cumpleanos</item>
+        <item>@string/fiesta</item>
+    </string-array>
+
+
+        <array name="pref_color_option_etiquetas"
+            >
+            <item>@string/pref_etiqueta_color_rojo</item>
+            <item>@string/pref_etiqueta_color_celeste</item>
+            <item>@string/pref_etiqueta_color_verde</item>
+        </array>
+
+        <array name="pref_color_option_valores">
+            <item>@string/pref_color_rojo_valor</item>
+            <item>@string/pref_color_celeste_valor</item>
+            <item>@string/pref_color_verde_valor</item>
+        </array>
+
+</resources>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:swipe="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/card_episodio"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_128dp"
+        android:layout_margin="@dimen/dimen_8dp"
+        android:elevation="@dimen/dimen_2dp"
+        app:cardCornerRadius="@dimen/dimen_4dp">
+
+        <com.daimajia.swipe.SwipeLayout
+            android:id="@+id/swipe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            swipe:leftEdgeSwipeOffset="0dp"
+            swipe:rightEdgeSwipeOffset="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="#FF5534"
+                android:gravity="center"
+                android:tag="Bottom3"
+                android:weightSum="10">
+
+                <ImageView
+                    android:id="@+id/trash"
+                    android:layout_width="27dp"
+                    android:layout_height="30dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/trash" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:text="@string/eliminar_item"
+                    android:textColor="#fff"
+                    android:textSize="17sp" />
+
+                <Button
+                    android:id="@+id/delete"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="4"
+                    android:background="#ffffff"
+                    android:text="@string/si_eliminar"
+                    android:textColor="#FF5534" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/imagen_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="96dp"
+                    android:scaleType="centerCrop"
+                    android:src="@mipmap/ic_launcher_round" />
+
+                <TextView
+                    android:id="@+id/titulo_card"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/titulo"
+                    android:textSize="@dimen/dimen_24sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </com.daimajia.swipe.SwipeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

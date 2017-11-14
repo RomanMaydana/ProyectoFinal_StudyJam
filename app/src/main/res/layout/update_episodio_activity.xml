@@ -12,7 +12,7 @@
     <ImageView
         android:id="@+id/fotoAdd_image_button"
         android:layout_width="match_parent"
-        android:layout_height="250dp"
+        android:layout_height="200dp"
         android:scaleType="fitCenter"
         android:layout_margin="8dp"
         />
@@ -71,14 +71,17 @@
 
 
     </LinearLayout>
-
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="130dp">
     <EditText
         android:textSize="13dp"
         android:layout_margin="8dp"
         android:id="@+id/descripionAdd_edit_Text"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:hint="@string/descripcion" />
+    </ScrollView>
     <Button
         android:id="@+id/actualizar_button"
         android:layout_width="wrap_content"
